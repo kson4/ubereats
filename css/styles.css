@@ -10,6 +10,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
 }
 .dummy {
   height: 160px;
@@ -45,6 +47,7 @@
 /* middle of hero page */
 .hero {
   padding-left: 50px;
+  color: #fff;
 }
 .hero-top-t {
   font-size: 4em;
@@ -72,4 +75,62 @@
 }
 .hero-bottom-t {
   font-size: 1.1em;
+}
+
+.f-info {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  margin: 150px 0;
+}
+
+/* info section */
+.card {
+  width: 30%;
+  background-size: cover;
+}
+.card > img {
+  width: 100%;
+}
+.card-top {
+  font-size: 2.5em;
+  padding-bottom: 5px;
+}
+.card-bot {
+  font-size: 1.25em;
+}
+
+.near-me {
+  padding: 0 3%;
+  margin-bottom: 4%;
+}
+.near-me > p {
+  font-size: 2.5em;
+  padding-bottom: 30px;
+}
+.near-me > img {
+  width: 100%;
+}
+.cities-near-me {
+  font-size: 1.5em;
+  width: 100%;
+}
+td {
+  padding: 20px 0;
+  width: 25%;
+}
+
+.countries {
+  padding: 0 3% ;
+  width: 100%;
+}
+.countries > p {
+  font-size: 2.5em;
+  padding-bottom: 30px;
+}
+.countries > table {
+  width: 100%;
+  font-size: 1.5em;
 }
