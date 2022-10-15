@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.front-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dummy {
+  height: 160px;
+}
+/* navigation bar */
+.navbar {
+  padding: 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-left, .navbar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  padding-left: 50px;
+  height: 32px;
+}
+.login, .signup {
+  width: 125px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 1.25em;
+}
+.login {
+  margin-right: 25px;
+}
+.signup {
+  width: 110px;
+}
+/* middle of hero page */
+.hero {
+  padding-left: 50px;
+}
+.hero-top-t {
+  font-size: 4em;
+}
+.hero > form {
+  margin: 40px 0;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.address {
+  width: 600px;
+  height: 60px;
+}
+.delivery {
+  width: 180px;
+  height: 60px;
+  font-size: 1.25em;
+}
+.d-submit {
+  width: 125px;
+  height: 60px;
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+.hero-bottom-t {
+  font-size: 1.1em;
+}
