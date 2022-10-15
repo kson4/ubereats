@@ -58,14 +58,23 @@
   display: flex;
   align-items: center;
 }
+.fa-location-dot {
+  position: absolute;
+  color: black;
+  left: 70px;
+  /* right: 10px; */
+}
 .address {
-  width: 600px;
+  width: 700px;
   height: 60px;
+  font-size: 2em;
+  padding-left: 60px;
 }
 .delivery {
-  width: 180px;
+  width: 200px;
   height: 60px;
   font-size: 1.25em;
+  text-align: center;
 }
 .d-submit {
   width: 125px;
