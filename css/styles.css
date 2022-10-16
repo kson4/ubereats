@@ -48,6 +48,7 @@
 .hero {
   padding-left: 50px;
   color: #fff;
+  
 }
 .hero-top-t {
   font-size: 4em;
@@ -57,30 +58,66 @@
   gap: 10px;
   display: flex;
   align-items: center;
+  position: relative;
+  right: 25px;
 }
 .fa-location-dot {
-  position: absolute;
+  position: relative;
   color: black;
-  left: 70px;
+  /* left: 20px;
+  top: 45px; */
   /* right: 10px; */
+  left: 50px;
+  bottom: 5px;
 }
 .address {
   width: 700px;
-  height: 60px;
-  font-size: 2em;
+  height: 70px;
+  font-size: 1.75em;
   padding-left: 60px;
+  /* display: flex; */
+  outline: none;
+}
+.address-suggestions {
+  width: 698px;
+  height: 375px;
+  left: 30px;
+  visibility: hidden;
+  list-style: none;
+  font-size: 1.75em;
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  color: black;
+  overflow: hidden;
+}
+.address-suggestion {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.address-suggestion-text {
+  padding-left: 18px;
+}
+.suggestion-logo {
+  position: unset;
+  padding-left: 21px;
 }
 .delivery {
   width: 200px;
-  height: 60px;
-  font-size: 1.25em;
+  height: 70px;
+  font-size: 1.75em;
   text-align: center;
 }
 .d-submit {
-  width: 125px;
-  height: 60px;
-  font-size: 1.5em;
+  width: 165px;
+  height: 70px;
+  font-size: 1.75em;
   border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
 }
 .hero-bottom-t {
   font-size: 1.1em;

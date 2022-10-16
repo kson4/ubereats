@@ -1,4 +1,4 @@
-const cities = [
+export const cities = [
   "Adelanto",
   "Agoura Hills",
   "Alameda",

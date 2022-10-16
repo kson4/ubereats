@@ -26,8 +26,15 @@
       <div class="hero">
         <p class="hero-top-t">Order food to your door</p>
         <form>
-          <i class="fa-solid fa-location-dot fa-2xl"></i>
-          <input class="address" type="text" />
+          <div class="address-container">
+            <i class="fa-solid fa-location-dot fa-2xl"></i>
+            <input
+              class="address"
+              type="text"
+              placeholder="Enter delivery address"
+            />
+            <ul class="address-suggestions"></ul>
+          </div>
           <select class="delivery" name="deliver-time" id="deliver-time">
             <option class="now" value="now">Deliver now</option>
             <option class="later" value="later">Schedule for later</option>
@@ -150,5 +157,6 @@
         </tr>
       </table>
     </div>
+    <script src="./js/front-page.js" type="module"></script>
   </body>
 </html>
