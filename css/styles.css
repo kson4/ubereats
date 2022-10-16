@@ -48,7 +48,6 @@
 .hero {
   padding-left: 50px;
   color: #fff;
-  
 }
 .hero-top-t {
   font-size: 4em;
@@ -79,12 +78,13 @@
   outline: none;
 }
 .address-suggestions {
-  width: 698px;
+  width: 697px;
   height: 375px;
   left: 30px;
   visibility: hidden;
   list-style: none;
-  font-size: 1.75em;
+  font-size: 1.25em;
+  white-space: pre;
   position: absolute;
   z-index: 2;
   background-color: white;
@@ -103,6 +103,9 @@
 .suggestion-logo {
   position: unset;
   padding-left: 21px;
+}
+#search {
+  color: black;
 }
 .delivery {
   width: 200px;
