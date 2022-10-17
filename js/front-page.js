@@ -64,5 +64,5 @@ address.addEventListener("keyup", (e) => {
         }
       })
       .catch((error) => console.log("error", error));
-  }, 1000);
+  }, 200);
 });

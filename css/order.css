@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+.o-navbar {
+  padding-top: 30px;
+}
+.o-navbar-top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.o-navbar-top-address {
+  display: flex;
+}
+.o-logo {
+  padding-right: 25px;
+}
+.radio {
+  padding-right: 10px;
+}
+.o-navbar-top-address {
+  width: 200px;
+  height: 40px;
+  padding-left: 10px;
+  background-color: gray;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.fa-magnifying-glass {
+  position: relative;
+  left: 60px;
+}
+.o-navbar-food-search {
+  width: 800px;
+  height: 40px;
+  /* padding-left: 100px; */
+  padding-left: 40px;
+  background-color: lightgray;
+  color: white;
+  border-radius: 40px;
+  /* margin-right: 40px; */
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1;
+}
+.o-cart, .o-login, .o-signup  {
+  width: 90px;
+  height: 30px;
+  border-radius: 40px;
+}
+.o-signup {
+  width: 70px;
+}
+.o-login, .o-signup {
+  background-color: lightgray;
+  color: black; 
+}
+.o-navbar-bot {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.line {
+  width: 95vw;
+  margin: auto;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 100px;
+}
+.o-deals {
+  display: flex;
+  gap: 30px;
+}
+.o-deals-text {
+  height: 300px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+.o-deals-text > h1 {
+  padding-bottom: 15px;
+}
+.o-deal-1 {
+  height: 300px;
+  width: 600px;
+  background-image: url("../img/order/sandwich.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.o-deal-1 > p {
+  padding-top: 15px;
+  padding-left: 15px
+}
+.o-deal-2 {
+  height: 300px;
+  width: 600px;
+  background-image: url("../img/order/sushi.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  background-position: 0 -70px;
+}
+.o-deal-2 > p {
+  padding-top: 15px;
+  padding-left: 15px
+}
+.large {
+  font-size: 2.25em;
+}
+.more-details {
+  background-color: white;
+  width: 160px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+.more-details-1 {
+  margin-top: 165px;
+}
+.more-details-2 {
+  margin-top: 155px;
+}
+.fa-arrow-right {
+  padding-left: 10px;
+}
