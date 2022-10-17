@@ -136,60 +136,133 @@
         <div class="side-nav">
           <h4>All stores</h4>
           <div class="o-category">
-            <h5>Sort</h5>
-            <div class="o-options">
+            <div class="min-max">
+              <h5 class="sort-title">Sort</h5>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="o-options sort">
               <div>
-                <input type="radio" id="o-options-radio" name="o-sort" />
+                <input
+                  type="radio"
+                  id="o-options-radio-sort"
+                  name="o-options-radio"
+                />
                 <label for="o-options-radio">Picked for you (default)</label>
               </div>
               <div>
-                <input type="radio" id="o-options-radio" name="o-popular" />
+                <input
+                  type="radio"
+                  id="o-options-radio-popular"
+                  name="o-options-radio"
+                />
                 <label for="o-options-radio">Most popular</label>
               </div>
               <div>
-                <input type="radio" id="o-options-radio" name="o-rating" />
+                <input
+                  type="radio"
+                  id="o-options-radio-rating"
+                  name="o-options-radio"
+                />
                 <label for="o-options-radio">Rating</label>
               </div>
               <div>
-                <input type="radio" id="o-options-radio" name="o-time" />
+                <input
+                  type="radio"
+                  id="o-options-radio-time"
+                  name="o-options-radio"
+                />
                 <label for="o-options-radio">Delivery time</label>
               </div>
             </div>
           </div>
           <div class="o-category">
-            <h5>From Uber Eats</h5>
+            <div class="min-max">
+              <h5 class="options-title">From Uber Eats</h5>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
             <div class="o-options">
-              <div>
-                <p>Deals</p>
-                <p>Top Eats</p>
-              </div>
+              <!-- <div>
+                <p><i class="fa-solid fa-tag"></i>Deals</p>
+                <p><i class="fa-solid fa-medal"></i>Top Eats</p>
+              </div> -->
+              <p><i class="fa-solid fa-tag"></i>Deals</p>
+              <p><i class="fa-solid fa-medal"></i>Top Eats</p>
             </div>
           </div>
           <div class="o-category">
-            <h5>Price Range</h5>
-            <div class="o-options">
+            <div class="min-max">
+              <h5 class="price-title">Price Range</h5>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="o-options dollars">
               <div class="dollar-1 dollar">$</div>
               <div class="dollar-2 dollar">$$</div>
               <div class="dollar-3 dollar">$$$</div>
               <div class="dollar-4 dollar">$$$$</div>
             </div>
           </div>
-          <div class="o-category">
-            <h5>Max Delivery Fee</h5>
-            <p>$1 $2 $5 $5+</p>
+          <div class="o-category o-category-fee">
+            <div class="min-max">
+              <h5 class="delivery-title">Max Delivery Fee</h5>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="o-options fee">
+              <div>
+                <input
+                  type="radio"
+                  id="o-options-radio-1"
+                  name="o-options-radio-fee"
+                />
+                <label for="o-options-radio">$1</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="o-options-radio-2-plus"
+                  name="o-options-radio-fee"
+                />
+                <label for="o-options-radio">$2</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="o-options-radio-5"
+                  name="o-options-radio-fee"
+                />
+                <label for="o-options-radio">$5</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="o-options-radio-5-plus"
+                  name="o-options-radio-fee"
+                />
+                <label for="o-options-radio">$5+</label>
+              </div>
+            </div>
           </div>
           <div class="o-category">
-            <h5>Dietary</h5>
-            <div class="o-options">
-              <div class="vegetarian">Vegetarian</div>
-              <div class="vegan">Vegan</div>
-              <div class="gluten-free">Gluten-free</div>
-              <div class="halal">Halal</div>
-              <div class="allergy-friendly">Allergy Friendly</div>
+            <div class="min-max">
+              <h5 class="dietary-title">Dietary</h5>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="o-options o-options-dietary">
+              <div class="vegetarian">
+                <i class="fa-brands fa-envira"></i>Vegetarian
+              </div>
+              <div class="vegan">
+                <i class="fa-solid fa-shield-heart"></i>Vegan
+              </div>
+              <div class="gluten-free">
+                <i class="fa-solid fa-wheat-awn"></i>Gluten-free
+              </div>
+              <div class="halal"><i class="fa-solid fa-sun"></i>Halal</div>
+              <div class="allergy-friendly">
+                <i class="fa-solid fa-shield-halved"></i>Allergy Friendly
+              </div>
             </div>
           </div>
         </div>
-
         <div class="selection">
           <h3>Family Favorites</h3>
           <div class="row">

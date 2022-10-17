@@ -153,12 +153,13 @@ h3 {
 
 /* side nav */
 .side-nav {
-  width: 500px;
+  width: 350px;
   height: 600px;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
   padding-left: 30px;
+  margin-right: 150px;
 }
 h4 {
   font-size: 1.5em;
@@ -166,6 +167,7 @@ h4 {
 }
 h5 {
   font-size: 1.1em;
+  padding-bottom: 10px;
 }
 .o-category {
   margin-bottom: 30px;
@@ -183,8 +185,95 @@ h5 {
 .o-options {
   display: flex;
   flex-direction: column;
-  
 }
 .radio {
   display: inline-grid;
+}
+.min-max {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+/* sort */
+.sort > div {
+  margin: 5px 0;
+}
+/* From Uber Eats */
+.fa-tag, .fa-medal {
+  margin-right: 20px;
+}
+.o-options > p {
+  margin: 5px 0;
+}
+/* PRICE RANGE */
+.dollars {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.dollar {
+  width: 30px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.dollar-2 {
+  width: 40px;
+}
+.dollar-3 {
+  width: 50px;
+}
+.dollar-4 {
+  width: 60px;
+}
+/* Delivery Fee */
+.fee {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+.fee > div {
+  display: flex;
+  flex-direction: column;
+}
+/* Dietary Restrictions */
+.o-options-dietary {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.o-options-dietary > div {
+  background-color: lightgray;
+  border-radius: 10px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.fa-envira, .fa-shield-heart, .fa-wheat-awn,
+.fa-sun, .fa-shield-halved {
+  padding-right: 5px;
+}
+.vegetarian {
+  width: 120px;
+}
+.vegan {
+  width: 80px;
+}
+.gluten-free {
+  width: 120px;
+}
+.halal {
+  width: 70px;
+}
+.allergy-friendly {
+  width: 160px;
 }
