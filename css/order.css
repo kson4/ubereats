@@ -150,12 +150,21 @@
 h3 {
   font-size: 1.75em;
 }
+.restaurant-name {
+  font-size: 1.25em;
+}
+.price {
+  font-size: .75em;
+}
 
+/* side nav */
+/* side nav */
+/* side nav */
+/* side nav */
 /* side nav */
 .side-nav {
   width: 350px;
   height: 600px;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   padding-left: 30px;
@@ -260,20 +269,29 @@ h5 {
 }
 .fa-envira, .fa-shield-heart, .fa-wheat-awn,
 .fa-sun, .fa-shield-halved {
-  padding-right: 5px;
+  padding-right: 12px;
+  padding-left: 20px;
+}
+.fa-wheat-awn, .fa-shield-halved {
+  padding-left: 10px;
 }
 .vegetarian {
-  width: 120px;
+  width: 137px;
+  padding-right: 20px;
 }
 .vegan {
-  width: 80px;
+  width: 105px;
+  padding-right: 20px;
 }
 .gluten-free {
-  width: 120px;
+  width: 155px;
+  padding-right: 10px;
 }
 .halal {
-  width: 70px;
+  width: 100px;
+  padding-right: 20px;
 }
 .allergy-friendly {
-  width: 160px;
+  width: 190px;
+  padding-right: 10px;
 }
