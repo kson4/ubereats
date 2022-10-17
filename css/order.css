@@ -75,11 +75,14 @@
   width: 95vw;
   margin: auto;
   border-bottom: 1px solid lightgray;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
+
+/* display deals */
 .o-deals {
   display: flex;
   gap: 30px;
+  padding-bottom: 75px;
 }
 .o-deals-text {
   height: 300px;
@@ -137,4 +140,51 @@
 }
 .fa-arrow-right {
   padding-left: 10px;
+}
+
+/* restaurant list */
+.order-seletion {
+  display: flex;
+  flex-direction: row;
+}
+h3 {
+  font-size: 1.75em;
+}
+
+/* side nav */
+.side-nav {
+  width: 500px;
+  height: 600px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+h4 {
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+h5 {
+  font-size: 1.1em;
+}
+.o-category {
+  margin-bottom: 30px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+.card > img {
+  width: 325px;
+  height: 175px;
+}
+.o-options {
+  display: flex;
+  flex-direction: column;
+  
+}
+.radio {
+  display: inline-grid;
 }
