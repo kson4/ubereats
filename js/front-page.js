@@ -66,3 +66,7 @@ address.addEventListener("keyup", (e) => {
       .catch((error) => console.log("error", error));
   }, 200);
 });
+
+document.querySelector(".d-submit").addEventListener("click", () => {
+  location.href = "../html/order.html";
+});

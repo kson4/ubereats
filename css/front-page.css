@@ -121,6 +121,9 @@
   background-color: #000;
   color: #fff;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero-bottom-t {
   font-size: 1.1em;
