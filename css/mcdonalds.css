@@ -66,6 +66,13 @@ li {
   gap: 25px;
   margin-bottom: 30px;
 }
+.r-selection-card {
+  transition: transform .2s;
+  cursor: pointer;
+}
+.r-selection-card:hover { 
+  transform: scale(1.1)
+}
 .r-selection-section { 
   margin-bottom: 25px;
   width: 100%;
